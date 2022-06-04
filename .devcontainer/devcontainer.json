@@ -1,0 +1,15 @@
+{
+    // Some descriptive name
+    "name": "Swap JavaScript",
+    // My fav extensions that I want in all dev environments
+    "extensions": [
+        "Gruntfuggly.todo-tree",
+        "monokai.theme-monokai-pro-vscode",
+        "mgmcdermott.vscode-language-babel",
+        "formulahendry.auto-rename-tag",
+        "ms-vscode.cpptools-extension-pack",
+        "yzhang.markdown-all-in-one",
+        "eamodio.gitlens",
+        "pflannery.vscode-versionlens"
+    ]
+}
