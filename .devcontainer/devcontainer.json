@@ -1,6 +1,7 @@
 {
     // Some descriptive name
     "name": "Swap JavaScript",
+
     // My fav extensions that I want in all dev environments
     "extensions": [
         "Gruntfuggly.todo-tree",
@@ -11,5 +12,12 @@
         "yzhang.markdown-all-in-one",
         "eamodio.gitlens",
         "pflannery.vscode-versionlens"
-    ]
+    ],
+
+    // Settings that I want to persist
+    "settings": {
+        "editor.fontSize": 20,
+        "workbench.colorTheme": "Monokai Pro (Filter Machine)",
+        "workbench.iconTheme": "Monokai Pro (Filter Machine) Icons"
+    }
 }
