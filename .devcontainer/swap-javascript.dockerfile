@@ -8,9 +8,4 @@ RUN update-ca-certificates
 RUN curl -sS https://deb.nodesource.com/setup_16.x | bash
 RUN apt-get -y install --no-install-recommends nodejs
 # Install swap dependencies
-RUN DEBIAN_FRONTEND=noninteractive TZ="America/Chicago" apt-get -y install build-essential cmake pkg-config libssl-dev libzmq3-dev libunbound-dev libsodium-dev libunwind8-dev liblzma-dev libreadline6-dev libldns-dev libexpat1-dev libpgm-dev qttools5-dev-tools libhidapi-dev libusb-1.0-0-dev libprotobuf-dev protobuf-compiler libudev-dev libboost-chrono-dev libboost-date-time-dev libboost-filesystem-dev libboost-locale-dev libboost-program-options-dev libboost-regex-dev libboost-serialization-dev libboost-system-dev libboost-thread-dev python3 ccache doxygen graphviz tzdata 
-# Install Emscripten SDK
-WORKDIR /workspaces/swap-javascript
-RUN git clone https://github.com/emscripten-core/emsdk.git
-WORKDIR /workspaces/swap-javascript/emsdk
-RUN git pull && ./emsdk install 3.1.13 && ./emsdk activate 3.1.13
+RUN DEBIAN_FRONTEND=noninteractive TZ="America/Chicago" apt-get -y install build-essential cmake pkg-config libssl-dev libzmq3-dev libunbound-dev libsodium-dev libunwind8-dev liblzma-dev libreadline6-dev libldns-dev libexpat1-dev libpgm-dev qttools5-dev-tools libhidapi-dev libusb-1.0-0-dev libprotobuf-dev protobuf-compiler libudev-dev libboost-chrono-dev libboost-date-time-dev libboost-filesystem-dev libboost-locale-dev libboost-program-options-dev libboost-regex-dev libboost-serialization-dev libboost-system-dev libboost-thread-dev python3 ccache doxygen graphviz tzdata

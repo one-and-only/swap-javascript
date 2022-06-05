@@ -1,8 +1,8 @@
 {
     // Custom dockerfile that installs all dependencies
     "dockerFile": "swap-javascript.dockerfile",
-    // Update git submodules
-    "postCreateCommand": "./bin/update_submodules.sh",
+    // Update git submodules and setup Emscripten SDK
+    "postCreateCommand": "./bin/update_submodules.sh && git clone https://github.com/emscripten-core/emsdk.git && cd emsdk && ./emsdk install 3.1.13 && ./emsdk activate 3.1.13 && echo 'source \"/workspaces/swap-javascript/emsdk/emsdk_env.sh\"' >> /root/.bashrc && echo 'export EMSCRIPTEN=/workspaces/swap-javascript/emsdk/upstream/emscripten' >> /root/.bashrc",
     // Some descriptive name
     "name": "Swap JavaScript",
     // My fav extensions that I want in all dev environments
