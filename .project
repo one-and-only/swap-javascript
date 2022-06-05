@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <projectDescription>
-	<name>monero-javascript</name>
-	<comment></comment>
+	<name>swap-javascript</name>
+	<comment>JavaScript library that allows you to interact with the Swap network.</comment>
 	<projects>
 	</projects>
 	<buildSpec>
