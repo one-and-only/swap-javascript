@@ -99,9 +99,7 @@ sed -i.bak 's/\&\&\ !defined(__STDC_NO_ATOMICS__)$/'"$to_defined_atomics_line"'/
 rm -rf "$INSTALL_PATH"
 mkdir "$INSTALL_PATH"
 
-HOST_NCORES=$(nproc 2>/dev/null|| shell nproc 2>/dev/null || sysctl -n hw.ncpu 2>/dev/null || echo 1)
-
-emmake make -j${HOST_NCORES} \
+emmake make -j1 \
 || {
   echo "Make openssl failed..."
   exit 1
