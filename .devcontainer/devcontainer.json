@@ -19,8 +19,12 @@
 
     // Settings that I want to persist
     "settings": {
-        "editor.fontSize": 20,
         "workbench.colorTheme": "Monokai Pro (Filter Machine)",
-        "workbench.iconTheme": "Monokai Pro (Filter Machine) Icons"
+        "workbench.iconTheme": "Monokai Pro (Filter Machine) Icons",
+        "versionlens.caching.duration": 1,
+        "versionlens.composer.caching.duration": 1,
+        "versionlens.suggestions.showOnStartup": true,
+        "editor.fontSize": 20,
+        "git.autofetch": true
     }
 }
