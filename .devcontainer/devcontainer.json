@@ -2,6 +2,9 @@
     // Custom dockerfile that installs all dependencies
     "dockerFile": "swap-javascript.dockerfile",
 
+    // Update git submodules
+    "postCreateCommand": "./bin/update_submodules.sh",
+
     // Some descriptive name
     "name": "Swap JavaScript",
 
@@ -25,6 +28,7 @@
         "versionlens.composer.caching.duration": 1,
         "versionlens.suggestions.showOnStartup": true,
         "editor.fontSize": 20,
-        "git.autofetch": true
+        "git.autofetch": true,
+        "git.autoRepositoryDetection": false
     }
 }
