@@ -1,13 +1,10 @@
 {
     // Custom dockerfile that installs all dependencies
     "dockerFile": "swap-javascript.dockerfile",
-
     // Update git submodules
     "postCreateCommand": "./bin/update_submodules.sh",
-
     // Some descriptive name
     "name": "Swap JavaScript",
-
     // My fav extensions that I want in all dev environments
     "extensions": [
         "Gruntfuggly.todo-tree",
@@ -19,7 +16,6 @@
         "eamodio.gitlens",
         "pflannery.vscode-versionlens"
     ],
-
     // Settings that I want to persist
     "settings": {
         "workbench.colorTheme": "Monokai Pro (Filter Machine)",
@@ -28,7 +24,6 @@
         "versionlens.composer.caching.duration": 1,
         "versionlens.suggestions.showOnStartup": true,
         "editor.fontSize": 20,
-        "git.autofetch": true,
-        "git.autoRepositoryDetection": false
+        "git.autofetch": true
     }
 }
