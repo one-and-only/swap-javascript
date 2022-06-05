@@ -1,4 +1,7 @@
 {
+    // Custom dockerfile that installs all dependencies
+    "dockerFile": "swap-javascript.dockerfile",
+
     // Some descriptive name
     "name": "Swap JavaScript",
 
