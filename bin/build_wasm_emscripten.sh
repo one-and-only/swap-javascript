@@ -15,7 +15,7 @@ rm -rf ~/.emscripten_cache || exit 1
 [ -d build ] || mkdir -p build || exit 1
 cd build || exit 1
 emcmake cmake .. || exit 1
-emmake cmake --build . -j1 || exit 1
+emmake cmake --build . || exit 1
 
 # move available wasm files to ./dist
 cd ..
