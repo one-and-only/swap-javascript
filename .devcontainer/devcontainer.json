@@ -7,15 +7,18 @@
     "name": "Swap JavaScript",
     // My fav extensions that I want in all dev environments
     "extensions": [
-        "Gruntfuggly.todo-tree",
-        "monokai.theme-monokai-pro-vscode",
-        "mgmcdermott.vscode-language-babel",
-        "formulahendry.auto-rename-tag",
-        "ms-vscode.cpptools-extension-pack",
-        "yzhang.markdown-all-in-one",
-        "eamodio.gitlens",
-        "pflannery.vscode-versionlens"
-    ],
+		"Gruntfuggly.todo-tree",
+		"monokai.theme-monokai-pro-vscode",
+		"mgmcdermott.vscode-language-babel",
+		"formulahendry.auto-rename-tag",
+		"yzhang.markdown-all-in-one",
+		"eamodio.gitlens",
+		"pflannery.vscode-versionlens",
+		"jeff-hykin.better-cpp-syntax",
+		"ms-vscode.cpptools",
+		"ms-vscode.cpptools-extension-pack",
+		"ms-vscode.cpptools-themes"
+	],
     // Settings that I want to persist
     "settings": {
         "workbench.colorTheme": "Monokai Pro (Filter Machine)",
