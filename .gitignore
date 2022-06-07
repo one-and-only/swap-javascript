@@ -10,3 +10,4 @@ test_products
 /browser_build/
 
 emsdk**
+dist**
