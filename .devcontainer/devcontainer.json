@@ -15,7 +15,8 @@
 		"eamodio.gitlens",
 		"pflannery.vscode-versionlens",
 		"jeff-hykin.better-cpp-syntax",
-		"ms-vscode.cpptools-extension-pack"
+		"ms-vscode.cpptools-extension-pack",
+		"twxs.cmake"
 	],
     // Settings that I want to persist
     "settings": {
